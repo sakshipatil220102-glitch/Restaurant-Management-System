@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Foodie Restaurant - Admin Orders</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <h1>🍽️ Admin - Orders</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/menu">Menu</a>
+        <a href="/order">Order</a>
+    </nav>
+</header>
+
+<section class="admin">
+
+    <h2>All Orders</h2>
+
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Food</th>
+            <th>Quantity</th>
+            <th>Order Date</th>
+        </tr>
+
+        {% for order in orders %}
+
+        <tr>
+            <td>{{ order[0] }}</td>
+            <td>{{ order[1] }}</td>
+            <td>{{ order[2] }}</td>
+            <td>{{ order[3] }}</td>
+            <td>{{ order[4] }}</td>
+            <td>{{ order[5] }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</section>
+
+</body>
+</html>

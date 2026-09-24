@@ -1,0 +1,351 @@
+/* General */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+/* Home Page */
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: #fff3e0;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+}
+
+.hero button {
+    padding: 14px 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.hero button:hover {
+    background-color: #e69500;
+}
+
+
+/* Menu Page */
+
+.menu {
+    text-align: center;
+    padding: 50px;
+}
+
+.menu h2 {
+    font-size: 35px;
+    color: #222;
+}
+
+.food {
+    background-color: white;
+    width: 250px;
+    display: inline-block;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.food:hover {
+    transform: translateY(-5px);
+}
+
+.food h3 {
+    font-size: 24px;
+}
+
+
+/* About Page */
+
+.about {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.about h2 {
+    font-size: 35px;
+    color: orange;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* Contact Page */
+
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2 {
+    font-size: 35px;
+    color: orange;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 15px;
+}
+
+
+/* Order Page */
+
+.order {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.order h2 {
+    color: orange;
+    font-size: 35px;
+}
+
+.order form {
+    background-color: white;
+    width: 400px;
+    max-width: 90%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.order label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.order input,
+.order select {
+    width: 90%;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order button {
+    padding: 12px 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.order button:hover {
+    background-color: #e69500;
+}
+
+
+/* Success Message */
+
+.success {
+    color: green;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+/* Admin Page */
+
+.admin {
+    padding: 40px;
+    text-align: center;
+}
+
+.admin h2 {
+    color: orange;
+    font-size: 30px;
+}
+
+.admin table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.admin th,
+.admin td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.admin th {
+    background-color: #222;
+    color: white;
+}
+
+.admin td {
+    color: #333;
+}
+.food {
+    transition: 0.3s;
+}
+
+.food:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+.food h3 {
+    color: #222;
+}
+
+.food p:last-child {
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about {
+    background-color: white;
+    width: 70%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.about h2 {
+    color: orange;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.contact {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.contact h2 {
+    color: orange;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #555;
+    margin: 18px;
+}
+.order form {
+    border-top: 5px solid orange;
+}
+
+.order input:focus,
+.order select:focus {
+    outline: none;
+    border: 2px solid orange;
+}
+
+.order button {
+    transition: 0.3s;
+}
+
+.order button:hover {
+    transform: scale(1.05);
+}
+
+.success {
+    background-color: #e8f5e9;
+    color: green;
+    padding: 12px;
+    border-radius: 8px;
+    width: 350px;
+    max-width: 90%;
+    margin: 0 auto 20px;
+}
+.admin {
+    background-color: #f8f8f8;
+    min-height: 500px;
+}
+
+.admin table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.admin tr:hover td {
+    background-color: #fff3e0;
+}
+
+.admin th {
+    padding: 15px;
+}
+
+.admin td {
+    padding: 14px;
+}
+.hero-image {
+    width: 450px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
